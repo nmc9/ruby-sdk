@@ -1,0 +1,20 @@
+diff --git a/.rspec b/.rspec
+new file mode 100644
+index 0000000..c99d2e7
+--- /dev/null
++++ b/.rspec
+@@ -0,0 +1 @@
++--require spec_helper
+diff --git a/Gemfile b/Gemfile
+index c714843..edc8f32 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -3,3 +3,7 @@ source 'https://rubygems.org/'
+ gemspec
+
+ gem 'rake'
++
++group :test do
++  gem 'webmock'
++end
+PS C:\Users\13nca\Documents\code\smartwaiver-sdk>
